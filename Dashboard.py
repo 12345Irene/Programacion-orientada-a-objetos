@@ -19,22 +19,15 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        #Archivo Semana 1
-        '1': 'Semana1 - Programacion Orientada a Objetos',
-        #Archivo Semana 2
-        '2': 'Semana2 - Ejemplos-de-tecnicas-de-programacion.py ',
-        # Archivo Semana 3
-        '3': 'Semana3 - Programacion-Orientada.py',
-        '3.1': 'Semana3 - Programacion-Tradicional.py',
-        '3.2': 'Semana3 - Programacion-Orientada-a-Objetos(Poo).py',
-        # Archivo Semana 4
-        '4': 'Semana4 - Ejemplos-Mundo-Real-Poo.py',
-        # Archivo Semana 5
-        '5': 'Semana5 - Tipos-de-datos-Identificadores.py',
-        # Archivo Semana 6
-        '6': 'Semana6 - Clases-objetivos-herencia-Encapsulacion-y-polimorfismo.py',
-        # Archivo Semana 7
-        '7': 'Semana7 - Constructores-Destructores.py',
+        '1': '1-Ejemplos-de-tecnicas-de-programacion.py',
+        '2': '2. Programacion-Tradicional.py',
+        '2.1': '2.1. Programacion-Orientada.py',
+        '2.2': '2.2. Programacion-Orientada-a-Objetos(Poo).py',
+        '3': '3. Ejemplos-Mundo-Real-Poo.py',
+        '4': '4. Tipos-de-datos-identificadores.py',
+        '5': '5. Clases-objetivos-herencia-Encapsulacion-y-polimorfismo.py',
+        '6': '6. Constructores-Destructores.py',
+
     }
 
     while True:
