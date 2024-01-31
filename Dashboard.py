@@ -19,15 +19,8 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': '1-Ejemplos-de-tecnicas-de-programacion.py',
-        '2': '2. Programacion-Tradicional.py',
-        '2.1': '2.1. Programacion-Orientada.py',
-        '2.2': '2.2. Programacion-Orientada-a-Objetos(Poo).py',
-        '3': '3. Ejemplos-Mundo-Real-Poo.py',
-        '4': '4. Tipos-de-datos-identificadores.py',
-        '5': '5. Clases-objetivos-herencia-Encapsulacion-y-polimorfismo.py',
-        '6': '6. Constructores-Destructores.py',
-
+        '1': 'Unidad 1/1.2. Tecnicas de Programacion/1.2-1. Ejemplo Tecnicas de Programacion.py',
+        # Agrega aquí el resto de las rutas de los scripts
     }
 
     while True:
