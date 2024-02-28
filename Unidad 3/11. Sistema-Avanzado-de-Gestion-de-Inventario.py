@@ -101,32 +101,50 @@ def menu():
 
 if __name__ == "__main__":
     menu()
-# Creación de un diccionario con información de un libro
-#libro = {
-#    "titulo": "Cien años de soledad",
-#    "autor": "Gabriel García Márquez",
-#    "publicado": 1967
-#}
+    # Creación de un diccionario con información de un libro
+    # libro = {
+    #    "titulo": "Cien años de soledad",
+    #    "autor": "Gabriel García Márquez",
+    #    "publicado": 1967
+    # }
 
-libro = dict()
-libro["titulo"] = "Cien años de soledad"
-libro["autor"] = "Gabriel García Márquez"
-libro["publicado"] = 1967
+    libro = dict()
+    libro["titulo"] = "Cien años de soledad"
+    libro["autor"] = "Gabriel García Márquez"
+    libro["publicado"] = 1967
 
-# Acceso a un valor
-print(libro["titulo"])  # Salida: Cien años de soledad
+    # Acceso a un valor
+    print(libro["titulo"])  # Salida: Cien años de soledad
 
-# Modificación de un valor
-libro["publicado"] = 1968
+    # Modificación de un valor
+    libro["publicado"] = 1968
 
-# Agregar un nuevo par clave-valor
-libro["genero"] = "Realismo mágico"
-print(f'Genero agregado: {libro["genero"]}')
+    # Agregar un nuevo par clave-valor
+    libro["genero"] = "Realismo mágico"
+    print(f'Genero agregado: {libro["genero"]}')
 
-# Eliminación de un par clave-valor
-#del libro["genero"]
-print(f'Genero eliminado: {libro.pop("genero")}')
+    # Eliminación de un par clave-valor
+    # del libro["genero"]
+    print(f'Genero eliminado: {libro.pop("genero")}')
 
-# Uso de .items() para iterar sobre el diccionario
-for clave, valor in libro.items():
-    print(f"{clave}: {valor}")
+    # Uso de .items() para iterar sobre el diccionario
+    for clave, valor in libro.items():
+        print(f"{clave}: {valor}")
+        # Creación de un conjunto
+        frutas = {"manzana", "banana", "cereza"}
+
+        # Agregar un elemento
+        frutas.add("naranja")
+
+        # Eliminar un elemento
+        frutas.remove("banana")  # Usar discard("banana") para evitar errores si no existe
+
+        # Operaciones de conjunto
+        vegetales = {"tomate", "papa", "cereza"}
+        union = frutas | vegetales
+        interseccion = frutas & vegetales
+        diferencia = frutas - vegetales
+
+        print("Unión:", union)
+        print("Intersección:", interseccion)
+        print("Diferencia:", diferencia)
